@@ -1,5 +1,5 @@
 # Machine-Learning-Fundamentals---Supervised-Unsupervised-Learning
-This repository provides a comprehensive introduction to machine learning, a subfield of Artificial Intelligence (AI) that equips computers with the ability to learn from data. This repository provides a comprehensive introduction to machine learning, a subfield of Artificial Intelligence (AI) that equips computers with the ability to learn from data. 
+This repository provides a comprehensive introduction to machine learning, a subfield of Artificial Intelligence (AI) that equips computers with the ability to learn from data. 
 
 •	Regression Analysis: Explores relationships between variables for continuous prediction tasks (e.g., price forecasting).
 
