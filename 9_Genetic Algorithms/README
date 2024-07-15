@@ -1,0 +1,17 @@
+Shortest route search problem - Python implementation
+Let’s look at the logistic problem of delivering packages from a main warehouse to several branches across a given region. A genetic algorithm search will be devised to find a good enough navigation path that will minimise transportation costs and time. We assume that all branches have existing physical routes that can interconnect them.
+ 
+Genetic code formation
+The problem consists of finding the best permutation of 15 stores. Thus, the genetic code of a population individual consists of a given permutation of the 15 stores.
+ 
+Fitness function
+The fitness function to solve the problem is the total distance from the supply point through town to town:
+ 
+The search problem, thus consist of finding the best permutation will yield the smallest covered distance.
+Crossover operator
+Crossover is performed by inbreeding two parents to get a better individual of the -two. There could be several inbreeding approaches to the problem, nevertheless, an ordered crossover approach is used in the current implementation. A portion of the genes of one parent is selected and appended in order and no repetition with the remaining genes of the other parent (This process can be used to generate at least two children, parent 2 can be used as parent 1 to generate another child).
+ 
+Mutation operator
+In the mutation process, a portion of the sequence is selected and reshuffled to create a new individual as described below
+ 
+
